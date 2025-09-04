@@ -37,7 +37,9 @@ navigation_header:
 - title: Home
   url: /
 - title: Resume
-  url: https://github.com/gthivierge/gthivierge.github.io/blob/f282fef4f35c075f46522b8ed6a2910d230eeed3/Gabrielle%20Thivierge.pdf
+  url: <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="/static/Gabrielle Thivierge.pdf">
+        CV
+      </a>
 - title: Research
   url: /research/
 - title: LinkedIn
