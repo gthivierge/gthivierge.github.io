@@ -2,4 +2,4 @@
 title: Resume
 --
 
-<iframe src="./Gabrielle Thivierge.pdf" width="100%" height="600px"></iframe>
+<object data="../Gabrielle Thivierge.pdf" width="1000" height="1000" type='application/pdf'></object>
