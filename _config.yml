@@ -37,7 +37,7 @@ navigation_header:
 - title: Home
   url: /
 - title: Resume
-  url: /resume/
+  url: <object data="../Gabrielle Thivierge.pdf" width="1000" height="1000" type='application/pdf'></object>
 - title: Research
   url: /research/
 - title: LinkedIn
