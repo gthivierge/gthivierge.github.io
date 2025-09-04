@@ -40,6 +40,10 @@ navigation_header:
   url: /resume/
 - title: Research
   url: /research/
+- title: LinkedIn
+  url: https://www.linkedin.com/in/gabrielle-thivierge/ 
+- title: GitHub
+  url: https://github.com/gthivierge
 
 # Footer nav
 navigation_footer:
