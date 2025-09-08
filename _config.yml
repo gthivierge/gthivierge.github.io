@@ -24,9 +24,8 @@ plugins:
 url: 'https://gthivierge.github.io'
 baseurl: ''
 title: 'Gabrielle Thivierge'
-description: 'This is my new website'
+description: 'Gabrielle Thivierge's personal website'
 permalink: pretty
-# logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
 
 # Pagination
 # paginate: 5
