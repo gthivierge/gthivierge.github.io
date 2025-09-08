@@ -1,35 +1,24 @@
 .about-wrap {
-  max-width: 900px;
-  margin: 0 auto 3rem;
-  padding: 0 1rem;
   display: flex;
-  gap: 2rem;
-  align-items: center;   /* ✅ vertically centers text + photo */
+  align-items: flex-start; /* text + image share a row */
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .about-text {
-  flex: 1 1 60%;         /* text takes most of the space */
-  min-width: 0;          /* allows wrapping */
-  overflow-wrap: anywhere;
+  flex: 1 1 auto;   /* text expands to fill space */
+  min-width: 0;     /* allows wrapping */
 }
 
 .about-photo {
-  flex: 0 0 auto;        /* keeps the photo at natural size */
+  flex: 0 0 auto;   /* image keeps natural size */
 }
 
 .about-photo img {
-  max-width: 150px;      /* ✅ sets a maximum size */
-  height: auto;          /* ✅ resizes proportionally */
-  border-radius: 50%;    /* circle crop */
-  object-fit: cover;
+  width: 120px;     /* forces a smaller size */
+  height: auto;     /* keeps proportions */
+  border-radius: 50%;
   display: block;
-}
-
-/* On mobile: stack text and photo */
-@media (max-width: 800px) {
-  .about-wrap {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-  }
 }
