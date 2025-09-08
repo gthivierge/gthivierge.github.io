@@ -12,7 +12,7 @@ I am a 5th year PhD candidate in the department of statistis and data science at
   </div>
 
   <div class="about-photo">
-    <img src="{{ '/assets/images/headshot.jpg' | relative_url }}" alt="GT headshot">
+    <img src="{{ 'headshot.jpg' | relative_url }}" alt="GT headshot">
   </div>
 </div>
 
