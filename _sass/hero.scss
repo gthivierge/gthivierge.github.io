@@ -47,3 +47,25 @@
     margin-bottom: 1rem;
   }
 }
+
+/* OVERRIDE: make banner headshot an oval */
+.hero-banner .hero-photo img {
+  /* defeat theme defaults */
+  max-width: none !important;
+  height: auto !important;
+
+  /* force rectangular aspect (portrait) */
+  width: 180px !important;
+  height: 240px !important;
+
+  /* crop to fill the rectangle without distortion */
+  object-fit: cover !important;
+  display: block;
+
+  /* make it an oval (not a circle, not a rounded square) */
+  border-radius: 50% / 38% !important;
+  /* or use this instead if you prefer a hard ellipse mask: */
+  /* clip-path: ellipse(50% 38% at 50% 50%); */
+
+  border: 4px solid #fff; /* optional */
+}
