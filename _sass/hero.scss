@@ -1,0 +1,43 @@
+.hero-banner {
+  background-color: #e6f0fa;   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  flex: 1 1 60%;
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #1a3d6d;   /* deep navy for your name */
+}
+
+.hero-text p {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: #2d5986;   /* medium blue-gray for subtitle */
+}
+
+.hero-photo img {
+  max-width: 180px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+@media (max-width: 800px) {
+  .hero-banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero-photo img {
+    margin-bottom: 1rem;
+  }
+}
