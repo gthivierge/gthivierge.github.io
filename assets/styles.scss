@@ -9,3 +9,17 @@
 .page-header .page-title {
   display: none !important;
 }
+
+/* Hide Alembic's built-in page title at the top */
+.page-title,
+.page-header .page-title {
+  display: none !important;
+}
+
+/* Fallback: if the theme ever drops the class, hide the first H1 at the top,
+   but don't hide any H1 you explicitly mark with .page-title--inline */
+.page > h1:not(.page-title--inline):first-child,
+.main > h1:not(.page-title--inline):first-child,
+.content > h1:not(.page-title--inline):first-child {
+  display: none !important;
+}
