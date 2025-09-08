@@ -9,8 +9,8 @@
 .about-text { flex: 1 1 60%; min-width: 0; overflow-wrap: anywhere; }
 .about-photo { flex: 0 0 auto; }
 .about-photo img {
-  width: 220px; height: 220px; border-radius: 50%;
-  object-fit: cover; display: block;
+  width: 120px;
+  height: auto;
 }
 @media (max-width: 800px) {
   .about-wrap { flex-direction: column-reverse; align-items: center; }
