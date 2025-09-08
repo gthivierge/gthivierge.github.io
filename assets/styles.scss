@@ -5,6 +5,7 @@
 @import "custom";
 @import "hero";
 
-.page-title {
-  display: none;   /* hides the default auto-inserted title */
+.page-title,
+.page-header .page-title {
+  display: none !important;
 }
