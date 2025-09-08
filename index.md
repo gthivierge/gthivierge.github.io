@@ -1,3 +1,6 @@
+---
+title: About me
+---
 
 <section class="hero-banner">
   <div class="hero-text">
@@ -10,9 +13,8 @@
   </div>
 </section>
 
----
-title: About me
----
+
+<h1 class="page-title">About Me</h1> 
 
 <div class="about-text" markdown="1">
 
