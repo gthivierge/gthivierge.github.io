@@ -1,5 +1,5 @@
 ---
-title: About Alembic
+title: About me
 feature_text: |
   ## Gabrielle Thivierge
 ---
