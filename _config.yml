@@ -23,8 +23,8 @@ plugins:
 # Site settings
 url: 'https://gthivierge.github.io'
 baseurl: ''
-title: 'Gabrielle Thivierge'
-description: 'Gabrielle Thivierge's personal website'
+title: 'Gabrielle Thivierge, PhD Candidate in Statistics'
+description: 'Website'
 permalink: pretty
 
 # Pagination
