@@ -1,10 +1,6 @@
----
-# This front matter makes Jekyll process SCSS. Keep it at the top!
----
 
-@import "alembic"; // load the theme's CSS first
+@import "alembic"; 
 
-/* Your overrides */
 .about-wrap {
   max-width: 900px;
   margin: 0 auto 3rem;
@@ -26,7 +22,6 @@
   display: block;
 }
 
-/* Mobile stacking */
 @media (max-width: 800px) {
   .about-wrap {
     flex-direction: column-reverse;
