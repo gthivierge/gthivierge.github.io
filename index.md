@@ -1,5 +1,5 @@
 ---
-title:
+title: Home
 ---
 
 <section class="hero-banner">
@@ -14,7 +14,7 @@ title:
 </section>
 
 
-<h1 class="page-title">About Me</h1> 
+<h1 class="page-title--inline">About me</h1>
 
 <div class="about-text" markdown="1">
 
