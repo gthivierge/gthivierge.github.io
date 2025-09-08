@@ -4,3 +4,7 @@
 @import "alembic";
 @import "custom";
 @import "hero";
+
+.page-title {
+  display: none;   /* hides the default auto-inserted title */
+}
