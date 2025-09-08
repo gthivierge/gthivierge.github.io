@@ -24,7 +24,7 @@ plugins:
 url: 'https://gthivierge.github.io'
 baseurl: ''
 title: 'Gabrielle Thivierge, PhD Candidate in Statistics'
-description: 'Website'
+description: 'Personal website'
 permalink: pretty
 
 # Pagination
