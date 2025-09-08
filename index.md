@@ -1,7 +1,7 @@
-
 ---
-title: About me
-layout: page
+title: About Alembic
+feature_text: |
+  ## Gabrielle Thivierge
 ---
 
 <div class="about-wrap">
