@@ -4,14 +4,32 @@
   padding: 0 1rem;
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: center;   /* ✅ vertically centers text + photo */
 }
-.about-text { flex: 1 1 60%; min-width: 0; overflow-wrap: anywhere; }
-.about-photo { flex: 0 0 auto; }
+
+.about-text {
+  flex: 1 1 60%;         /* text takes most of the space */
+  min-width: 0;          /* allows wrapping */
+  overflow-wrap: anywhere;
+}
+
+.about-photo {
+  flex: 0 0 auto;        /* keeps the photo at natural size */
+}
+
 .about-photo img {
-  width: 120px;
-  height: auto;
+  max-width: 150px;      /* ✅ sets a maximum size */
+  height: auto;          /* ✅ resizes proportionally */
+  border-radius: 50%;    /* circle crop */
+  object-fit: cover;
+  display: block;
 }
+
+/* On mobile: stack text and photo */
 @media (max-width: 800px) {
-  .about-wrap { flex-direction: column-reverse; align-items: center; }
+  .about-wrap {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
 }
