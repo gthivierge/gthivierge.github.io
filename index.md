@@ -1,6 +1,4 @@
----
-title: About me
----
+
 <section class="hero-banner">
   <div class="hero-text">
     <h1>Gabrielle Thivierge</h1>
@@ -12,6 +10,9 @@ title: About me
   </div>
 </section>
 
+---
+title: About me
+---
 
 <div class="about-text" markdown="1">
 
