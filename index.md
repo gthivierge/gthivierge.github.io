@@ -1,5 +1,5 @@
 ---
-title: About me
+title:
 ---
 
 <section class="hero-banner">
